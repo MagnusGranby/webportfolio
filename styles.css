@@ -1,0 +1,280 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * europa:
+ *   - http://typekit.com/eulas/00000000000000003b9b12fe
+ *   - http://typekit.com/eulas/00000000000000003b9b12fd
+ * eurostile:
+ *   - http://typekit.com/eulas/000000000000000000017994
+ *   - http://typekit.com/eulas/000000000000000000017997
+ *   - http://typekit.com/eulas/00000000000000000001799f
+ *   - http://typekit.com/eulas/0000000000000000000179a1
+ *
+ * © 2009-2025 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2018-03-21 23:33:19 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=ojv4ekx&ht=tk&f=15529.15530.25750.25753.25761.25763&a=8080773&app=typekit&e=css");
+
+@font-face {
+font-family:"europa";
+src:url("https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"europa";
+src:url("https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+/* @font-face {
+font-family:"eurostile";
+src:url("https://use.typekit.net/af/e90c07/000000000000000000017994/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/e90c07/000000000000000000017994/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/e90c07/000000000000000000017994/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+} */
+
+@font-face {
+    font-family: eurostile;
+    src: url(fonts/eurostile.TTF);
+  }
+
+.tk-europa { font-family: "europa",sans-serif; }
+
+
+header{
+    background-color: rgb(36, 110, 175);
+    display: flex;
+    flex-direction: column; 
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+header h1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+header img{
+    display: grid;
+    width: 150px;
+    height: 150px;
+    margin-top:47px; 
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+header .thing{
+    color: white;
+    text-align: center;
+}
+
+
+body{
+    background-color: 0;
+    padding-left: 250px;
+}
+
+h1, h2, h3 {
+    font-family: "eurostile"; 
+}
+
+h1 {
+    font-size: 6em;
+}
+
+p {
+    font-family: "europa", sans-serif;
+}
+
+main {
+    padding-right: 100px;
+    padding-left: 20px;
+}
+
+.about {
+    color: black;
+}
+
+.education{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.education h3, p, img {
+    padding: 5px;
+}
+
+
+/* this is not part of the CSS, i just wanted to keep it so i can come back to it, and learn */
+/* .education:hover{
+    box-shadow: 5px 5px rgb(230, 230, 230);
+} */
+
+.education .highschool{
+    Border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    background-color: rgb(36, 110, 175);
+}
+
+.education .middleschool{
+    Border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    background-color: rgb(36, 110, 175);
+}
+
+.education .highschool img{
+    margin-left: 5px;
+    border: 0;
+
+}
+
+.education .middleschool img{
+    margin-left: 5px;
+    border: 0;
+
+    width: 320px;
+    height: auto;
+}
+
+.highschool, .middleschool, img {
+    border: 0;
+    border-radius: 25px;
+}
+
+
+.projects{
+    border: 0;
+}
+
+.projects img{
+    height: 100px;
+    width: auto;
+}
+.projects .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    color: white;
+    
+} 
+
+.project1{
+    border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(36, 110, 175);
+    font-size: 20px;
+}
+
+.project2{
+    border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(36, 110, 175);
+    font-size: 20px;
+}
+
+.project3{
+    border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(36, 110, 175);
+    font-size: 20px;
+}
+
+.skills .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    color:white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.skills-boxes h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    padding: 10px;
+}
+
+.skill1{
+    border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    background-color: rgb(36, 110, 175);
+}
+
+.skill2{
+    border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    background-color: rgb(36, 110, 175);
+}
+
+.skill3{
+    border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    background-color: rgb(36, 110, 175);
+}
+
+.hobbies .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.hobbies .Hobby1{
+    border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    
+    background-color: rgb(36, 110, 175);
+    
+}
+
+.hobbies .Hobby2{
+    border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    
+    background-color: rgb(36, 110, 175);
+}
+
+footer{
+    background-color: #f1f1f1;
+    margin-left: -8px;
+    margin-bottom: -8px;
+    margin-right: -8px;
+    padding-left: 20px;
+}
+
+.contacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 5px;
+}
+
+footer .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.findme a {
+    text-decoration: none;
+}
